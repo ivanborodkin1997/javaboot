@@ -1,11 +1,12 @@
 package ru.javaops.bootjava.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.util.Set;
 
+@Getter
+@Setter
+@ToString
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
